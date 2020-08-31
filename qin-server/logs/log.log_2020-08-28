@@ -1,0 +1,51 @@
+[2020-08-28 15:28:52.871] [INFO] console - { errStr: 'success', errNo: 0, data: [] }
+[2020-08-28 15:28:52.907] [INFO] console -   <-- GET /api/qin/history/list
+[2020-08-28 15:28:53.185] [INFO] console -   --> GET /api/qin/history/list 200 278ms 40b
+[2020-08-28 17:18:23.613] [INFO] console - { errStr: 'success', errNo: 0, data: [] }
+[2020-08-28 17:18:23.850] [INFO] console -   <-- GET /api/qin/history/list
+[2020-08-28 17:18:23.945] [INFO] console -   --> GET /api/qin/history/list 200 62ms 40b
+[2020-08-28 17:19:27.022] [INFO] console - 111
+[2020-08-28 17:20:17.471] [INFO] console - { errStr: 'success',
+  errNo: 0,
+  data: 
+   [ { page_id: 1,
+       publish_name: 'liya',
+       publish_id: 6530,
+       publish_version: '1.0.0',
+       status: '运行中',
+       publish_time: '2020/08/28 17:17' } ] }
+[2020-08-28 17:20:17.552] [INFO] console -   <-- GET /api/qin/history/list
+[2020-08-28 17:20:17.606] [INFO] console -   --> GET /api/qin/history/list 200 54ms 174b
+[2020-08-28 17:21:10.125] [INFO] console - { errStr: 'success',
+  errNo: 0,
+  data: 
+   [ { page_id: 1,
+       publish_name: 'liya',
+       publish_id: 6530,
+       publish_version: '1.0.0',
+       status: '运行中',
+       publish_time: '2020/08/28 17:17' } ] }
+[2020-08-28 17:21:10.132] [INFO] console -   <-- GET /api/qin/history/list
+[2020-08-28 17:21:10.141] [INFO] console -   --> GET /api/qin/history/list 200 9ms 174b
+[2020-08-28 17:22:11.700] [INFO] console - { errStr: 'success',
+  errNo: 0,
+  data: 
+   [ { page_id: 1,
+       publish_name: 'liya',
+       publish_id: 6530,
+       publish_version: '1.0.0',
+       status: '运行中',
+       publish_time: '2020/08/28 17:17' } ] }
+[2020-08-28 17:22:11.703] [INFO] console -   <-- GET /api/qin/history/list
+[2020-08-28 17:22:11.705] [INFO] console -   --> GET /api/qin/history/list 200 2ms 174b
+[2020-08-28 17:22:55.595] [INFO] console - { errStr: 'success',
+  errNo: 0,
+  data: 
+   [ { page_id: 1,
+       publish_name: 'liya',
+       publish_id: 6530,
+       publish_version: '1.0.0',
+       status: '运行中',
+       publish_time: '2020/08/28 17:17' } ] }
+[2020-08-28 17:22:55.625] [INFO] console -   <-- GET /api/qin/history/list
+[2020-08-28 17:22:55.673] [INFO] console -   --> GET /api/qin/history/list 200 26ms 174b

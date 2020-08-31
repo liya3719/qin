@@ -1,0 +1,25 @@
+.template {
+  margin-top: 16px;
+  &-list {
+    display: flex;
+    &__item {
+      position: relative;
+      width: 275px;
+      margin-right: 15px;
+      .cover {
+        max-width: 100%;
+      }
+      .card-collect {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+      .el-icon-star-on {
+        color: red;
+      }
+    }
+    &__body {}
+  }
+}
