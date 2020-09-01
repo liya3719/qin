@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-03-01 20:44:54
  * @LastEditors: liya
- * @LastEditTime: 2020-08-27 17:49:40
+ * @LastEditTime: 2020-09-01 11:16:10
  */
 import Vue from 'vue';
 import Router from 'vue-router';
@@ -36,7 +36,7 @@ export default new Router({
       },
     },
     {
-      path: '/page/edit',
+      path: '/page/edit/:templateId?',
       name: 'pageEdit',
       component: () => import(/* webpackChunkName: "pageEdit" */ './views/build/app.vue'),
       meta: {

@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-28 11:07:26
  * @LastEditors: liya
- * @LastEditTime: 2020-08-31 19:27:32
+ * @LastEditTime: 2020-09-01 15:54:56
  */
 import { Service, Inject } from 'typedi';
 import { ITemplateInterface } from '../interface/services/ITemplateInterface';
@@ -16,8 +16,9 @@ export class TemplateService implements ITemplateInterface {
   dataAccessInstance: IDataAccess;
   /**
    * @description 获取模板列表
+   * @param { number } type 区分全部还是我的收藏
    */
-  async getTemplateList(): Promise<{errStr: string, errNo: number, data: any}> {
+  async getTemplateList(type?: number): Promise<{errStr: string, errNo: number, data: any}> {
     return {
       errStr: 'success',
       errNo: 0,
@@ -44,5 +45,17 @@ export class TemplateService implements ITemplateInterface {
         is_collect: 0,  // 0代表未收藏
       }]
     }
+  }
+  /**
+   * @description 设为我的收藏
+   * @param {number} id 当前模板id
+   */
+  async setTemplateCollect(id: number): Promise<{ errStr: string; errNo: number; data: any; }> {
+    console.log(`id~~~~~~`, id);
+    return {
+      errStr: 'success',
+      errNo: 0,
+      data: []
+    };
   }
 }

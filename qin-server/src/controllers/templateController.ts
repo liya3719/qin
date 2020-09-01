@@ -4,9 +4,9 @@
  * @Author: liya
  * @Date: 2020-08-27 18:00:29
  * @LastEditors: liya
- * @LastEditTime: 2020-08-31 17:58:10
+ * @LastEditTime: 2020-09-01 17:10:53
  */
-import { Controller, Get, Post } from 'routing-controllers';
+import { Controller, Get, Post, BodyParam, QueryParam } from 'routing-controllers';
 import { Inject } from 'typedi';
 import { ITemplateInterface }  from '../interface/services/ITemplateInterface';
 @Controller('/api/qin')
@@ -17,13 +17,18 @@ export class TemplateController {
    * @description 获取模板列表
    */
   @Get('/template/list')
-  async getTemplateList() {
-    const result = await this.templateServiceInstance.getTemplateList();
+  async getTemplateList(@QueryParam('type') type?: number) {
+    console.log(`type ---------`, type);
+    const result = await this.templateServiceInstance.getTemplateList(type);
     return result;
   }
   /**
-   * @description 通过模板创建页面
+   * @description 设为我的收藏
    */
-  @Post('/template/build')
-  async templateBuild() {}
+  @Post('/template/collect')
+  async setTemplateCollect(@BodyParam('templateId') id: number) {
+    console.log(`templateId ~~~~~~`, id);
+    const result = await this.templateServiceInstance.setTemplateCollect(id);
+    return result;
+  }
 }

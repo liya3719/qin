@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-26 19:18:44
  * @LastEditors: liya
- * @LastEditTime: 2020-08-31 17:29:19
+ * @LastEditTime: 2020-09-01 19:47:12
 -->
 <template>
   <div class="history">
@@ -84,16 +84,20 @@ export default class HistoryView extends Vue {
    * @description 回滚操作
    * @param { Number } id 当前页面id,如果当前只有一个版本，不可执行回滚操作
    */
-  handlerRollBack(id: number) {
+  async handlerRollBack(id: number) {
     console.log(id);
+    const result = await Container.get(HistoryService).historyRollBack(id);
+    console.log(result);
   }
   /**
    * @description 下线操作,当前线上运行的版本则无法访问
    * @param { Number } id 当前页面id
    */
-  handlerOffline(id: number) {
+  async handlerOffline(id: number) {
     console.log(id);
     this.offlineId = id;
+    const result = await Container.get(HistoryService).historyOffline(id);
+    console.log(result);
   }
 }
 </script>

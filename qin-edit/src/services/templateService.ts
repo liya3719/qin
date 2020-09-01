@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-31 15:14:03
  * @LastEditors: liya
- * @LastEditTime: 2020-08-31 19:43:11
+ * @LastEditTime: 2020-09-01 16:16:23
  */
 import { Service } from 'typedi';
 import { CommonService } from './commonService';
@@ -14,18 +14,21 @@ import api from '@/api/main';
 export class TemplateService implements ITemplateInterface {
   /**
    * @description 获取模板列表
+   * @param { number } type 类型
    * @returns { Object }
    */
-  getTemplateList(): Promise<any> {
-    return CommonService._get(api.templateList, {});
+  getTemplateList(type?: number): Promise<any> {
+    return CommonService._get(api.templateList, {
+      type,
+    });
   }
   /**
    * @description 设为收藏模板
    * @param { number } id 模板id
    */
-  setTemplateCollect(id: number): Promise<any> {
+  setTemplateCollect(templateId: number): Promise<any> {
     return CommonService._post(api.templateCollect, {
-      id,
+      templateId,
     })
   }
 }

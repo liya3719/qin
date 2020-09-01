@@ -4,21 +4,24 @@
  * @Author: liya
  * @Date: 2020-08-28 11:07:45
  * @LastEditors: liya
- * @LastEditTime: 2020-08-31 15:47:53
+ * @LastEditTime: 2020-09-01 17:41:41
  */
 import { Service, Inject } from 'typedi';
 import { IHistoryInterface } from '../interface/services/IHistoryInterface';
 import { IDataAccess } from '../interface/dataAccess/IDataAccess';
+interface response {
+  errStr: string,
+  errNo: number,
+  data: any
+}
 @Service('historyService')
 export class HistoryService implements IHistoryInterface {
   // 注入数据库操作服务
   @Inject('dataAccess')
   dataAccessInstance: IDataAccess
-  async getHistoryList(): Promise<{
-    errStr: string,
-    errNo: number,
-    data: any
-  }> {
+  
+
+  async getHistoryList(): Promise<response> {
     return {
       errStr: 'success',
       errNo: 0,
@@ -39,4 +42,22 @@ export class HistoryService implements IHistoryInterface {
       }]
     }
   };
+
+
+  async historyRollBack(pageId: number): Promise<response> {
+    return {
+      errStr: 'success',
+      errNo: 0,
+      data: []
+    };
+  }
+
+  
+  async historyOffline(pageId: number): Promise<response> {
+    return {
+      errStr: 'success',
+      errNo: 0,
+      data: []
+    };
+  }
 }

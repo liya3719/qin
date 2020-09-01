@@ -4,11 +4,10 @@
  * @Author: liya
  * @Date: 2020-08-27 16:53:59
  * @LastEditors: liya
- * @LastEditTime: 2020-08-27 17:53:54
+ * @LastEditTime: 2020-08-31 20:08:18
 -->
 <template>
-  <div class="page-edit">
-  </div>
+  <div class="page-edit"></div>
 </template>
 <style lang="less">
   @import './app.less';
