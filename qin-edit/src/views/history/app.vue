@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-26 19:18:44
  * @LastEditors: liya
- * @LastEditTime: 2020-09-01 19:47:12
+ * @LastEditTime: 2020-09-02 20:14:25
 -->
 <template>
   <div class="history">
@@ -16,35 +16,30 @@
         <el-table-column
           prop="page_id"
           label="页面id"
-          width="180">
+          width="80">
         </el-table-column>
         <el-table-column
-          prop="publish_name"
-          label="发布人"
-          width="180">
+          prop="page_name"
+          label="页面名称">
         </el-table-column>
         <el-table-column
-          prop="publish_id"
-          label="发布id"
-          width="180">
+          prop="publish_author"
+          label="发布人">
         </el-table-column>
         <el-table-column
           prop="publish_version"
-          label="当前版本"
-          width="180">
+          label="当前版本">
           <template slot-scope="scope">
             {{scope.row.publish_version[0]}}
           </template>
         </el-table-column>
         <el-table-column
-          prop="status"
-          label="当前状态"
-          width="180">
+          prop="page_status"
+          label="当前状态">
         </el-table-column>
         <el-table-column
           prop="publish_time"
-          label="发布时间"
-          width="180">
+          label="发布时间">
         </el-table-column>
         <el-table-column
           label="操作"
@@ -52,6 +47,7 @@
           <template slot-scope="scope">
             <a href="javascript:;" class="roll-back" @click="handlerRollBack(scope.row.page_id)">回滚</a>
             <a href="javascript:;" class="discard" @click="handlerOffline(scope.row.page_id)">下线</a>
+            <a :href="scope.row.page_url" class="view">查看</a>
           </template>
         </el-table-column>
       </el-table>
@@ -70,11 +66,13 @@ export default class HistoryView extends Vue {
   private tableData:any[] = [];
   private loading: boolean = true;
   private offlineId: number = -1;
+  private pageIndex: number = 1;
+  private pageSize: number = 15;
   mounted() {
    this.getHistoryList(); 
   }
   async getHistoryList() {
-    const result = await Container.get(HistoryService).getHistoryList();
+    const result = await Container.get(HistoryService).getHistoryList(this.pageIndex, this.pageSize);
     if(result.errNo === 0) {
       this.tableData = [].concat(result.data);
       this.loading = false;
@@ -82,21 +80,23 @@ export default class HistoryView extends Vue {
   }
   /**
    * @description 回滚操作
-   * @param { Number } id 当前页面id,如果当前只有一个版本，不可执行回滚操作
+   * @param { Number } id 当前页面id
+   * @param { string } version 回滚到指定版本
    */
-  async handlerRollBack(id: number) {
-    console.log(id);
-    const result = await Container.get(HistoryService).historyRollBack(id);
+  async handlerRollBack(id: number, version: string) {
+    console.log(id, version);
+    const result = await Container.get(HistoryService).historyRollBack(id, version);
     console.log(result);
   }
   /**
    * @description 下线操作,当前线上运行的版本则无法访问
    * @param { Number } id 当前页面id
+   * @param { string } version 当前版本
    */
-  async handlerOffline(id: number) {
-    console.log(id);
+  async handlerOffline(id: number, version: string) {
+    console.log(id, version);
     this.offlineId = id;
-    const result = await Container.get(HistoryService).historyOffline(id);
+    const result = await Container.get(HistoryService).historyOffline(id, version);
     console.log(result);
   }
 }

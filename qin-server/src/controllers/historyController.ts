@@ -4,9 +4,9 @@
  * @Author: liya
  * @Date: 2020-08-27 21:08:53
  * @LastEditors: liya
- * @LastEditTime: 2020-09-01 20:13:42
+ * @LastEditTime: 2020-09-02 20:21:00
  */
-import { JsonController, Get, Post, BodyParam } from 'routing-controllers';
+import { JsonController, Get, Post, BodyParam, QueryParam } from 'routing-controllers';
 import { Inject } from 'typedi';
 import { IHistoryInterface } from '../interface/services/IHistoryInterface';
 interface response {
@@ -22,8 +22,8 @@ export class HistoryController {
    * @description 获取发布历史列表
    */
   @Get('/history/list')
-  async getHistoryList(): Promise<response> {
-    const result = await this.HistoryServiceInstance.getHistoryList();
+  async getHistoryList(@QueryParam('pageIndex') pageIndex: number, @QueryParam('pageSize') pageSize: number): Promise<response> {
+    const result = await this.HistoryServiceInstance.getHistoryList(pageIndex, pageSize);
     console.log(result);
     return result;
   }
@@ -31,18 +31,18 @@ export class HistoryController {
    * @description 数据回滚
    */
   @Post('/history/rollback')
-  async historyRollBack(@BodyParam('pageId') pageId: number): Promise<response> {
+  async historyRollBack(@BodyParam('pageId') pageId: number, @BodyParam('pageVersion') pageVersion: string): Promise<response> {
     console.log(`pageId ----------`, pageId);
-    const result = await this.HistoryServiceInstance.historyRollBack(pageId);
+    const result = await this.HistoryServiceInstance.historyRollBack(pageId, pageVersion);
     return result;
   }
   /**
    * @description 数据下线
    */
   @Post('/history/offline')
-  async historyOffLine(@BodyParam('pageId') pageId: number): Promise<response> {
+  async historyOffLine(@BodyParam('pageId') pageId: number, @BodyParam('pageVersion') pageVersion: string): Promise<response> {
     console.log(`pageId ----------`, pageId);
-    const result = await this.HistoryServiceInstance.historyOffline(pageId);
+    const result = await this.HistoryServiceInstance.historyOffline(pageId, pageVersion);
     return result;
   }
 }

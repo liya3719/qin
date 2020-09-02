@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-28 15:21:22
  * @LastEditors: liya
- * @LastEditTime: 2020-09-01 19:45:24
+ * @LastEditTime: 2020-09-02 20:13:12
  */
 interface Response {
   errStr: string,
@@ -14,18 +14,22 @@ interface Response {
 export interface IHistoryInterface {
   /**
    *  获取发布历史列表
+   * @param { number } pageIndex 起始页码
+   * @param { number } pageSize 每页展示条数
    */
-  getHistoryList(): Promise<Response>;
+  getHistoryList(pageIndex: number, pageSize: number): Promise<Response>;
   /**
    * @description 回滚
    * @param { number } pageId 页面id
+   * @param { string } pageVersion 回滚指定版本
    * @returns { Response }
    */
-  historyRollBack(pageId: number): Promise<Response>;
+  historyRollBack(pageId: number, pageVersion: string): Promise<Response>;
   /**
    * @description 下线
    * @param { number } pageId 页面id
+   * @param { string } pageVersion 当前运行的版本
    * @returns { Response }
    */
-  historyOffline(pageId: number): Promise<Response>;
+  historyOffline(pageId: number, pageVersion: string): Promise<Response>;
 }

@@ -7,10 +7,10 @@ module.exports.loggerSetting = {
 
 //数据库相关配置
 module.exports.dbConfig = {
-    host: "host",
+    host: "127.0.0.1",
     user: "root",
-    password: "password",
-    database: "database",
+    password: "123456",
+    database: "static",
     connectionLimit: 10,
     port: "3306",
     waitForConnections: false,
