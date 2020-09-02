@@ -4,12 +4,13 @@
  * @Author: liya
  * @Date: 2020-08-27 18:00:29
  * @LastEditors: liya
- * @LastEditTime: 2020-09-01 17:10:53
+ * @LastEditTime: 2020-09-01 20:14:04
  */
-import { Controller, Get, Post, BodyParam, QueryParam } from 'routing-controllers';
+import { JsonController, Get, Post, BodyParam, QueryParam } from 'routing-controllers';
 import { Inject } from 'typedi';
 import { ITemplateInterface }  from '../interface/services/ITemplateInterface';
-@Controller('/api/qin')
+
+@JsonController('/api/qin')
 export class TemplateController {
   @Inject('templateService')
   templateServiceInstance: ITemplateInterface

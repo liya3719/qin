@@ -4,9 +4,9 @@
  * @Author: liya
  * @Date: 2020-08-27 21:08:53
  * @LastEditors: liya
- * @LastEditTime: 2020-09-01 17:44:06
+ * @LastEditTime: 2020-09-01 20:13:42
  */
-import { Controller, Get, Post, BodyParam } from 'routing-controllers';
+import { JsonController, Get, Post, BodyParam } from 'routing-controllers';
 import { Inject } from 'typedi';
 import { IHistoryInterface } from '../interface/services/IHistoryInterface';
 interface response {
@@ -14,7 +14,7 @@ interface response {
   errNo: number,
   data: any[]
 }
-@Controller('/api/qin')
+@JsonController('/api/qin')
 export class HistoryController {
   @Inject('historyService')
   HistoryServiceInstance: IHistoryInterface​​

@@ -164,3 +164,9 @@
 [2020-09-01 19:48:46.225] [INFO] console - pageId ---------- 1
 [2020-09-01 19:48:46.228] [INFO] console -   <-- POST /api/qin/history/offline
 [2020-09-01 19:48:46.233] [INFO] console -   --> POST /api/qin/history/offline 200 4ms 40b
+[2020-09-01 20:08:41.669] [INFO] console - pageId ---------- 2
+[2020-09-01 20:08:41.707] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-01 20:08:41.738] [INFO] console -   --> POST /api/qin/history/rollback 200 31ms 40b
+[2020-09-01 20:08:42.692] [INFO] console - pageId ---------- 2
+[2020-09-01 20:08:42.701] [INFO] console -   <-- POST /api/qin/history/offline
+[2020-09-01 20:08:42.703] [INFO] console -   --> POST /api/qin/history/offline 200 2ms 40b

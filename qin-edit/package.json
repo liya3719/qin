@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "qin edit",
-  "author": "luoqin",
+  "author": "liya, luoqin",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",

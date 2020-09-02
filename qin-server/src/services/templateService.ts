@@ -4,21 +4,21 @@
  * @Author: liya
  * @Date: 2020-08-28 11:07:26
  * @LastEditors: liya
- * @LastEditTime: 2020-09-01 15:54:56
+ * @LastEditTime: 2020-09-02 11:06:15
  */
 import { Service, Inject } from 'typedi';
 import { ITemplateInterface } from '../interface/services/ITemplateInterface';
 import { IDataAccess } from '../interface/dataAccess/IDataAccess';
-
+import { Response } from '../interface/services/ICommonInterface';
 @Service('templateService')
 export class TemplateService implements ITemplateInterface {
   @Inject('dataAccess')
   dataAccessInstance: IDataAccess;
   /**
    * @description 获取模板列表
-   * @param { number } type 区分全部还是我的收藏
+   * @param { number } type [全部 还是我的收藏]
    */
-  async getTemplateList(type?: number): Promise<{errStr: string, errNo: number, data: any}> {
+  async getTemplateList(type?: number): Promise<Response> {
     return {
       errStr: 'success',
       errNo: 0,
@@ -50,7 +50,7 @@ export class TemplateService implements ITemplateInterface {
    * @description 设为我的收藏
    * @param {number} id 当前模板id
    */
-  async setTemplateCollect(id: number): Promise<{ errStr: string; errNo: number; data: any; }> {
+  async setTemplateCollect(id: number): Promise<Response> {
     console.log(`id~~~~~~`, id);
     return {
       errStr: 'success',
