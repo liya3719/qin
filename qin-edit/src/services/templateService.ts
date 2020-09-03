@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-31 15:14:03
  * @LastEditors: liya
- * @LastEditTime: 2020-09-01 16:16:23
+ * @LastEditTime: 2020-09-03 15:31:50
  */
 import { Service } from 'typedi';
 import { CommonService } from './commonService';
@@ -14,11 +14,15 @@ import api from '@/api/main';
 export class TemplateService implements ITemplateInterface {
   /**
    * @description 获取模板列表
+   * @param { number } pageIndex 当前页码
+   * @param { number } pageSize 每页展示多少条
    * @param { number } type 类型
    * @returns { Object }
    */
-  getTemplateList(type?: number): Promise<any> {
+  getTemplateList(pageIndex: number, pageSize: number, type?: number): Promise<any> {
     return CommonService._get(api.templateList, {
+      pageIndex,
+      pageSize,
       type,
     });
   }

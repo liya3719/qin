@@ -9,10 +9,11 @@
     "start": "npm run complied && cross-env NODE_ENV=prod ./node_modules/.bin/pm2 start server/server.js -i max --name qin-server -e error.log",
     "stop": "./node_modules/.bin/pm2 kill",
     "restart": "npm run stop && npm start",
-    "dev": "npm run complied && cross-env NODE_ENV=dev ./node_modules/.bin/devtool server/server.js src/services/*.ts --watch",
+    "dev": "npm run complied && cross-env NODE_ENV=dev ./node_modules/.bin/devtool server/server.js --watch",
     "serve": "npm run complied && cross-env NODE_ENV=prod node server/server.js"
   },
   "dependencies": {
+    "@types/http-errors": "^1.8.0",
     "@types/koa": "^2.0.45",
     "@types/mysql": "^2.15.2",
     "@types/node": "^8.5.2",
@@ -22,7 +23,7 @@
     "debug": "^2.6.3",
     "decompress": "^4.2.0",
     "decompress-targz": "^4.1.1",
-    "electron": "^9.1.0",
+    "electron": "9.1.0",
     "fs-extra": "^5.0.0",
     "http-errors": "^1.8.0",
     "jszip": "^3.1.5",
@@ -47,7 +48,7 @@
     "routing-controllers": "^0.7.6",
     "string-format": "^0.5.0",
     "typedi": "^0.6.0",
-    "typescript": "^2.7.0"
+    "typescript": "^3.0.0"
   },
   "engines": {
     "node": ">=8.9.0"

@@ -4,12 +4,12 @@
  * @Author: liya
  * @Date: 2020-09-02 11:24:13
  * @LastEditors: liya
- * @LastEditTime: 2020-09-02 20:21:49
+ * @LastEditTime: 2020-09-02 20:37:56
  */
 export class HistorySql {
   // 获取发布历史列表
   static getHistoryList = `
-    select * from qin.qin_page_publish where page_id = ? 
+    select * from qin.qin_page_publish
     order by publish_time desc limit {start}, {end}`;
   // 回滚操作，当前page_id和指定version去回滚
   static historyRollBack = `

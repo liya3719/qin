@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-27 15:18:35
  * @LastEditors: liya
- * @LastEditTime: 2020-09-01 15:57:36
+ * @LastEditTime: 2020-09-03 11:44:40
 -->
 <template>
   <div class="template">
@@ -53,6 +53,8 @@ export default class TemplateView extends Vue {
   private templateList: any[] = [];
   private loading: boolean = true;
   private activeName: string = 'all'; // tab选中
+  private pageIndex: number = 0;
+  private pageSize: number = 15;
   // 视图挂载生命周期做的事
   mounted() {
     this.getTemplateList();
@@ -63,7 +65,7 @@ export default class TemplateView extends Vue {
    * @returns  { void }
    */
   async getTemplateList(type?: number) {
-    const result = await Container.get(TemplateService).getTemplateList(type);
+    const result = await Container.get(TemplateService).getTemplateList(type, this.pageIndex, this.pageSize);
     if(result.errNo === 0) {
       this.templateList = [].concat(result.data);
       this.loading = false;

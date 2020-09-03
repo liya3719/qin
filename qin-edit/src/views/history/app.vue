@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-26 19:18:44
  * @LastEditors: liya
- * @LastEditTime: 2020-09-02 20:14:25
+ * @LastEditTime: 2020-09-03 15:29:57
 -->
 <template>
   <div class="history">
@@ -30,7 +30,7 @@
           prop="publish_version"
           label="当前版本">
           <template slot-scope="scope">
-            {{scope.row.publish_version[0]}}
+            {{scope.row.publish_version.split(',')[0]}}
           </template>
         </el-table-column>
         <el-table-column
@@ -45,8 +45,8 @@
           label="操作"
           width="180">
           <template slot-scope="scope">
-            <a href="javascript:;" class="roll-back" @click="handlerRollBack(scope.row.page_id)">回滚</a>
-            <a href="javascript:;" class="discard" @click="handlerOffline(scope.row.page_id)">下线</a>
+            <a href="javascript:;" class="roll-back" @click="handlerRollBack(scope.row)">回滚</a>
+            <a href="javascript:;" class="discard" @click="handlerOffline(scope.row)">下线</a>
             <a :href="scope.row.page_url" class="view">查看</a>
           </template>
         </el-table-column>
@@ -80,21 +80,21 @@ export default class HistoryView extends Vue {
   }
   /**
    * @description 回滚操作
-   * @param { Number } id 当前页面id
-   * @param { string } version 回滚到指定版本
+   * @param { object } params 回滚需要的参数[页面id和指定回滚的参数]
    */
-  async handlerRollBack(id: number, version: string) {
-    console.log(id, version);
+  async handlerRollBack(params: {page_id: number, publish_version: string}) {
+    const id = params.page_id;
+    const version = params.publish_version;
     const result = await Container.get(HistoryService).historyRollBack(id, version);
     console.log(result);
   }
   /**
    * @description 下线操作,当前线上运行的版本则无法访问
-   * @param { Number } id 当前页面id
-   * @param { string } version 当前版本
+   * @param { object } params 回滚需要的参数[页面id和当前运行的版本，最新的版本]
    */
-  async handlerOffline(id: number, version: string) {
-    console.log(id, version);
+  async handlerOffline(params: {page_id: number, publish_version: string}) {
+    const id = params.page_id;
+    const version = params.publish_version;
     this.offlineId = id;
     const result = await Container.get(HistoryService).historyOffline(id, version);
     console.log(result);

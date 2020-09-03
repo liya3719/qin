@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-28 11:07:45
  * @LastEditors: liya
- * @LastEditTime: 2020-09-02 20:19:28
+ * @LastEditTime: 2020-09-03 15:29:08
  */
 import { Service, Inject } from 'typedi';
 import { IHistoryInterface } from '../interface/services/IHistoryInterface';
@@ -20,25 +20,18 @@ export class HistoryService implements IHistoryInterface {
   
 
   async getHistoryList(pageIndex: number, pageSize: number): Promise<Response> {
-    
+    console.log(pageIndex, pageSize);
+    const start = ((pageIndex - 1) * pageSize).toString();
+    const end = pageSize.toString();
+    let queryHistoryList = HistorySql.getHistoryList;
+    queryHistoryList = queryHistoryList.replace(/{start}/gi, start);
+    queryHistoryList = queryHistoryList.replace(/{end}/, end);
+    const result = await this.dataAccessInstance.execSql(queryHistoryList, []);
+    const data = result.result;
     return {
-      errStr: 'success',
       errNo: 0,
-      data: [{
-        page_id: 1,
-        page_name: 'test1',
-        publish_author: 'liya',
-        publish_version: ['1.0.0', '1.0.1', '1.0.2'],
-        page_status: '运行中',
-        publish_time: '2020/08/28 17:17',
-      },{
-        page_id: 2,
-        page_name: 'test2',
-        publish_author: 'liya',
-        publish_version: ['1.0.1', '1.0.2', '1.0.3'],
-        page_status: '已回滚',
-        publish_time: '2020/08/28 17:21',
-      }]
+      errStr: 'success',
+      data: data
     }
   };
 
