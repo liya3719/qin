@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-26 19:18:44
  * @LastEditors: liya
- * @LastEditTime: 2020-09-03 15:29:57
+ * @LastEditTime: 2020-09-03 16:10:23
 -->
 <template>
   <div class="history">
@@ -43,15 +43,26 @@
         </el-table-column>
         <el-table-column
           label="操作"
+          class-name="options"
           width="180">
           <template slot-scope="scope">
             <a href="javascript:;" class="roll-back" @click="handlerRollBack(scope.row)">回滚</a>
             <a href="javascript:;" class="discard" @click="handlerOffline(scope.row)">下线</a>
-            <a :href="scope.row.page_url" class="view">查看</a>
+            <a :href="scope.row.page_url" target="_blank" class="view">查看</a>
           </template>
         </el-table-column>
       </el-table>
     </div>
+    <el-dialog
+      title="提示"
+      :visible.sync="rollBackDialogVisible"
+      width="30%">
+      <span>这是一段信息</span>
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="rollBackDialogVisible = false">取 消</el-button>
+        <el-button type="primary" @click="rollBackDialogVisible = false">确 定</el-button>
+      </span>
+    </el-dialog>
   </div>
 </template>
 <style lang="less">
@@ -65,6 +76,9 @@ import { HistoryService } from '../../services/historyService';
 export default class HistoryView extends Vue {
   private tableData:any[] = [];
   private loading: boolean = true;
+  private rollBackDialogVisible: boolean = false;
+  private rollBackParams: any = {};
+  private offlineParams: any = {};
   private offlineId: number = -1;
   private pageIndex: number = 1;
   private pageSize: number = 15;

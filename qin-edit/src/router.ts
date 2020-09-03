@@ -4,21 +4,15 @@
  * @Author: liya
  * @Date: 2020-03-01 20:44:54
  * @LastEditors: liya
- * @LastEditTime: 2020-09-01 11:16:10
+ * @LastEditTime: 2020-09-03 17:24:13
  */
 import Vue from 'vue';
 import Router from 'vue-router';
-import HelpView from './views/help/app.vue';
 Vue.use(Router);
 
 export default new Router({
   mode: 'history',
   routes: [
-    {
-      path: '/',
-      name: 'main',
-      component: HelpView,
-    },
     {
       path: '/publish/history',
       name: 'history',
