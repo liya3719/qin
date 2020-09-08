@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-28 11:07:45
  * @LastEditors: liya
- * @LastEditTime: 2020-09-03 15:29:08
+ * @LastEditTime: 2020-09-04 15:28:47
  */
 import { Service, Inject } from 'typedi';
 import { IHistoryInterface } from '../interface/services/IHistoryInterface';
@@ -37,15 +37,35 @@ export class HistoryService implements IHistoryInterface {
 
 
   async historyRollBack(pageId: number, pageVersion: string): Promise<Response> {
-    return {
-      errStr: 'success',
-      errNo: 0,
-      data: []
-    };
+    const res = await this.dataAccessInstance.execSql(HistorySql.queryHistoryListByPageId, [pageId]);
+    let pageUrl = res.result[0].page_url;
+    pageUrl = pageUrl.replace(/\d(\.\d){2}/, pageVersion);
+    const result = await this.dataAccessInstance.execSql(HistorySql.historyRollBack, [
+      pageUrl,
+      pageVersion,
+      pageId,
+    ]);
+    if(result.result[0].insertId) {
+      return {
+        errStr: 'success',
+        errNo: 0,
+        data: []
+      };
+    }
   }
 
   
-  async historyOffline(pageId: number, pageSize: string): Promise<Response> {
+  async historyOffline(pageId: number, pageVersion: string): Promise<Response> {
+    console.log(`service ------`,pageId, pageVersion);
+    const res = await this.dataAccessInstance.execSql(HistorySql.queryHistoryListByPageId, [pageId]);
+    let pageUrl = res.result[0].page_url;
+    pageUrl = pageUrl.replace(/\d(\.\d){2}/, '404');
+    const result = await this.dataAccessInstance.execSql(HistorySql.historyOffline, [
+      pageUrl,
+      3,
+      pageId,
+    ]);
+    console.log(`result -----------`, result);
     return {
       errStr: 'success',
       errNo: 0,

@@ -1,0 +1,1599 @@
+[2020-09-04 11:11:55.203] [INFO] console - 1 15
+[2020-09-04 11:11:57.510] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:11:57.510] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:11:57.534] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:11:58.014] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 481ms 458b
+[2020-09-04 11:13:05.211] [INFO] console - 1 15
+[2020-09-04 11:13:05.258] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:13:05.258] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:13:05.459] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:13:05.485] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 20ms 458b
+[2020-09-04 11:13:23.318] [INFO] console - 1 15
+[2020-09-04 11:13:23.349] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:13:23.355] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:13:23.367] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:13:23.381] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 15ms 458b
+[2020-09-04 11:13:34.490] [INFO] console - 1 15
+[2020-09-04 11:13:34.496] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:13:34.496] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:13:34.498] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:13:34.500] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 2ms 458b
+[2020-09-04 11:14:31.375] [INFO] console - 1 15
+[2020-09-04 11:14:31.385] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:14:31.385] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:14:31.387] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:14:31.541] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 143ms 458b
+[2020-09-04 11:22:20.121] [INFO] console - 1 15
+[2020-09-04 11:22:20.192] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:22:20.195] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:22:20.213] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:22:20.229] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 18ms 458b
+[2020-09-04 11:22:37.606] [INFO] console - pageId ---------- 1
+[2020-09-04 11:22:37.612] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 11:22:37.615] [INFO] console -   --> POST /api/qin/history/rollback 200 3ms 40b
+[2020-09-04 11:23:05.320] [INFO] console - 1 15
+[2020-09-04 11:23:05.332] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:23:05.333] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:23:05.337] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:23:05.344] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 7ms 458b
+[2020-09-04 11:23:11.006] [INFO] console - pageId ---------- 1
+[2020-09-04 11:23:11.012] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 11:23:11.017] [INFO] console -   --> POST /api/qin/history/rollback 200 5ms 40b
+[2020-09-04 11:23:52.116] [INFO] console - 1 15
+[2020-09-04 11:23:52.139] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:23:52.139] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:23:52.143] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:23:52.165] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 21ms 458b
+[2020-09-04 11:24:04.221] [INFO] console - 1 15
+[2020-09-04 11:24:04.227] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:24:04.227] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:24:04.233] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:24:04.239] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 6ms 458b
+[2020-09-04 11:24:12.441] [INFO] console - pageId ---------- 1
+[2020-09-04 11:24:12.444] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 11:24:12.493] [INFO] console -   --> POST /api/qin/history/rollback 200 49ms 40b
+[2020-09-04 11:29:57.491] [INFO] console - 1 15
+[2020-09-04 11:29:57.552] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:29:57.561] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:29:57.568] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:29:57.573] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 5ms 458b
+[2020-09-04 11:30:26.020] [INFO] console - 1 15
+[2020-09-04 11:30:26.127] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:30:26.128] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:30:26.203] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:30:26.287] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 84ms 458b
+[2020-09-04 11:31:27.738] [INFO] console - 1 15
+[2020-09-04 11:31:27.752] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:31:27.753] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:31:27.785] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:31:27.798] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 13ms 458b
+[2020-09-04 11:33:03.328] [INFO] console - 1 15
+[2020-09-04 11:33:03.681] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:33:03.681] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:33:03.696] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:33:03.703] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 7ms 458b
+[2020-09-04 11:33:29.173] [INFO] console - 1 15
+[2020-09-04 11:33:29.232] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:33:29.264] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:33:29.270] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:33:29.314] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 44ms 458b
+[2020-09-04 11:33:29.410] [INFO] console - 1 15
+[2020-09-04 11:33:29.419] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:33:29.419] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:33:29.434] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:33:29.437] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 3ms 458b
+[2020-09-04 11:33:35.778] [INFO] console - 1 15
+[2020-09-04 11:33:35.783] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:33:35.784] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:33:35.785] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:33:35.788] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 3ms 458b
+[2020-09-04 11:34:15.635] [INFO] console - 1 15
+[2020-09-04 11:34:15.644] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:34:15.644] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:34:15.649] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:34:15.687] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 38ms 458b
+[2020-09-04 11:34:23.334] [INFO] console - 1 15
+[2020-09-04 11:34:23.338] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:34:23.338] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:34:23.340] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:34:23.345] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 5ms 458b
+[2020-09-04 11:34:26.406] [INFO] console - pageId ---------- 1
+[2020-09-04 11:34:26.410] [INFO] console -   <-- POST /api/qin/history/offline
+[2020-09-04 11:34:26.418] [INFO] console -   --> POST /api/qin/history/offline 200 8ms 40b
+[2020-09-04 11:34:49.397] [INFO] console - 1 15
+[2020-09-04 11:34:49.406] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 11:34:49.407] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 11:34:49.423] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 11:34:49.426] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 3ms 458b
+[2020-09-04 11:34:53.252] [INFO] console - pageId ---------- 1
+[2020-09-04 11:34:53.259] [INFO] console -   <-- POST /api/qin/history/offline
+[2020-09-04 11:34:53.267] [INFO] console -   --> POST /api/qin/history/offline 200 8ms 40b
+[2020-09-04 11:35:01.850] [INFO] console - pageId ---------- 2
+[2020-09-04 11:35:01.852] [INFO] console -   <-- POST /api/qin/history/offline
+[2020-09-04 11:35:01.855] [INFO] console -   --> POST /api/qin/history/offline 200 2ms 40b
+[2020-09-04 11:55:08.442] [INFO] console - pageId ---------- 2 1.0.2
+[2020-09-04 11:55:08.485] [INFO] console - service ------ 2 1.0.2
+[2020-09-04 11:55:08.498] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 11:55:08.525] [INFO] console -   --> POST /api/qin/history/rollback 200 27ms 40b
+[2020-09-04 14:39:57.993] [INFO] console - pageId ---------- 1 1.0.2
+[2020-09-04 14:39:58.385] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 14:39:58.387] [INFO] console - res ------------ { result: [ RowDataPacket { page_url: 'https://www.baidu.com/1.0.0/index.html' } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: 'qin',
+       table: 'qin_page_publish',
+       orgTable: 'qin_page_publish',
+       name: 'page_url',
+       orgName: 'page_url',
+       charsetNr: 33,
+       length: 1500,
+       type: 253,
+       flags: 0,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-04 14:39:58.393] [INFO] console - service ------ 1 1.0.2
+[2020-09-04 14:39:58.411] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 14:39:58.446] [INFO] console -   --> POST /api/qin/history/rollback 200 36ms 40b
+[2020-09-04 14:41:45.353] [INFO] console - pageId ---------- 1 1.0.2
+[2020-09-04 14:41:45.416] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 14:41:45.417] [INFO] console - res ------------ undefined
+[2020-09-04 14:41:45.418] [INFO] console - service ------ 1 1.0.2
+[2020-09-04 14:41:45.422] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 14:41:45.429] [INFO] console -   --> POST /api/qin/history/rollback 200 7ms 40b
+[2020-09-04 14:42:05.406] [INFO] console - pageId ---------- 1  1.0.2
+[2020-09-04 14:42:05.417] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 14:42:05.417] [INFO] console - res ------------ undefined
+[2020-09-04 14:42:05.418] [INFO] console - service ------ 1  1.0.2
+[2020-09-04 14:42:05.420] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 14:42:05.426] [INFO] console -   --> POST /api/qin/history/rollback 200 5ms 40b
+[2020-09-04 14:42:55.830] [INFO] console - pageId ---------- 1  1.0.2
+[2020-09-04 14:42:55.952] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 14:42:55.952] [INFO] console - res ------------ https://www.baidu.com/1.0.0/index.html
+[2020-09-04 14:42:55.953] [INFO] console - service ------ 1  1.0.2
+[2020-09-04 14:42:55.960] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 14:42:55.976] [INFO] console -   --> POST /api/qin/history/rollback 200 15ms 40b
+[2020-09-04 14:52:08.472] [INFO] console - 1 15
+[2020-09-04 14:52:09.433] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 14:52:09.434] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 14:52:09.449] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 14:52:09.765] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 317ms 458b
+[2020-09-04 14:52:59.647] [INFO] console - pageId ---------- 1  1.0.2
+[2020-09-04 14:52:59.660] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 14:52:59.660] [INFO] console - res ------------ https://www.baidu.com/ 1.0.2/index.html
+[2020-09-04 14:52:59.670] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    update qin.qin_page_publish set page_url = ? where page_id =? 
+ exec sql params is [1," 1.0.2"]
+[2020-09-04 14:52:59.670] [ERROR] MysqlImpl.ts - exec sql happen error,and the error sql is 
+ 
+    update qin.qin_page_publish set page_url = 1 where page_id =' 1.0.2' 
+the error stack message is 
+ Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: ' 1.0.2'
+    at Query.Sequence._packetToError (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:560:20)
+    --------------------
+    at Protocol._enqueue (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:198:25)
+    at /Users/lee/PersonalData/fe_Engineering/qin/qin-server/build/dataAccess/MysqlImpl.js:48:22
+    at Ping.onOperationComplete (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Ping._callback (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+[2020-09-04 14:56:44.386] [INFO] console - pageId ---------- 1  1.0.2
+[2020-09-04 14:56:44.392] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 14:56:44.392] [INFO] console - res ------------ https://www.baidu.com/ 1.0.2/index.html
+[2020-09-04 14:56:44.397] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    update qin.qin_page_publish set page_url = ? where page_id =? 
+ exec sql params is [1," 1.0.2"]
+[2020-09-04 14:56:44.397] [ERROR] MysqlImpl.ts - exec sql happen error,and the error sql is 
+ 
+    update qin.qin_page_publish set page_url = 1 where page_id =' 1.0.2' 
+the error stack message is 
+ Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: ' 1.0.2'
+    at Query.Sequence._packetToError (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:560:20)
+    --------------------
+    at Protocol._enqueue (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:198:25)
+    at /Users/lee/PersonalData/fe_Engineering/qin/qin-server/build/dataAccess/MysqlImpl.js:48:22
+    at Ping.onOperationComplete (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Ping._callback (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+[2020-09-04 14:57:28.294] [INFO] console - 1 15
+[2020-09-04 14:57:28.299] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 14:57:28.299] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 14:57:28.305] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 14:57:28.320] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 11ms 458b
+[2020-09-04 14:58:35.374] [INFO] console - 1 15
+[2020-09-04 14:58:35.791] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 14:58:35.792] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.0/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 14:58:35.851] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 14:58:35.902] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 52ms 458b
+[2020-09-04 14:58:40.634] [INFO] console - pageId ---------- 1 1.0.1
+[2020-09-04 14:58:40.684] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 14:58:40.685] [INFO] console - res ------------ https://www.baidu.com/1.0.1/index.html
+[2020-09-04 14:58:40.712] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    update qin.qin_page_publish set page_url = ? where page_id =? 
+ exec sql params is ["https://www.baidu.com/1.0.1/index.html",1]
+[2020-09-04 14:58:40.712] [INFO] console - result ------- { result: 
+   OkPacket {
+     fieldCount: 0,
+     affectedRows: 1,
+     insertId: 0,
+     serverStatus: 2,
+     warningCount: 0,
+     message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+     protocol41: true,
+     changedRows: 1 },
+  fields: undefined }
+[2020-09-04 14:58:40.713] [INFO] console - service ------ 1 1.0.1
+[2020-09-04 14:58:40.714] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 14:58:40.736] [INFO] console -   --> POST /api/qin/history/rollback 200 10ms 40b
+[2020-09-04 15:00:32.766] [INFO] console - pageId ---------- 1 1.0.0
+[2020-09-04 15:00:32.768] [INFO] console - service ------ 1 1.0.0
+[2020-09-04 15:00:32.771] [INFO] console -   <-- POST /api/qin/history/offline
+[2020-09-04 15:00:32.775] [INFO] console -   --> POST /api/qin/history/offline 200 4ms 40b
+[2020-09-04 15:05:49.261] [INFO] console - 1 15
+[2020-09-04 15:05:49.273] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:05:49.273] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.1/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1' } ] }
+[2020-09-04 15:05:49.276] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:05:49.283] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 7ms 458b
+[2020-09-04 15:08:34.666] [INFO] console - 1 15
+[2020-09-04 15:08:34.671] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:08:34.672] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.1/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: null },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: null } ] }
+[2020-09-04 15:08:34.675] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:08:34.677] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 2ms 504b
+[2020-09-04 15:11:59.157] [INFO] console - 1 15
+[2020-09-04 15:11:59.309] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:11:59.317] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.1/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: null },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: null } ] }
+[2020-09-04 15:11:59.430] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:11:59.494] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 65ms 504b
+[2020-09-04 15:13:01.425] [INFO] console - 1 15
+[2020-09-04 15:13:01.436] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:13:01.438] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.1/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: null },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: null } ] }
+[2020-09-04 15:13:01.440] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:13:01.446] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 4ms 504b
+[2020-09-04 15:13:13.912] [INFO] console - 1 15
+[2020-09-04 15:13:13.919] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:13:13.920] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.1/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: null },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: null } ] }
+[2020-09-04 15:13:13.922] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:13:13.925] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 3ms 504b
+[2020-09-04 15:13:44.222] [INFO] console - 1 15
+[2020-09-04 15:13:44.228] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:13:44.229] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.1/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: null },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: null } ] }
+[2020-09-04 15:13:44.233] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:13:44.236] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 3ms 504b
+[2020-09-04 15:14:16.172] [INFO] console - 1 15
+[2020-09-04 15:14:16.176] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:14:16.176] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.1/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: null },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: null } ] }
+[2020-09-04 15:14:16.181] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:14:16.185] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 4ms 504b
+[2020-09-04 15:14:45.945] [INFO] console - 1 15
+[2020-09-04 15:14:45.949] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:14:45.950] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.1/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: null },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: null } ] }
+[2020-09-04 15:14:45.953] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:14:45.955] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 2ms 504b
+[2020-09-04 15:15:16.945] [INFO] console - pageId ---------- 1 1.0.2
+[2020-09-04 15:15:16.955] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 15:15:16.961] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    update qin.qin_page_publish set page_url = ? current_version = ? where page_id =? 
+ exec sql params is ["https://www.baidu.com/1.0.2/index.html","1.0.2",1]
+[2020-09-04 15:15:16.961] [ERROR] MysqlImpl.ts - exec sql happen error,and the error sql is 
+ 
+    update qin.qin_page_publish set page_url = 'https://www.baidu.com/1.0.2/index.html' current_version = '1.0.2' where page_id =1 
+the error stack message is 
+ Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'current_version = '1.0.2' where page_id =1' at line 1
+    at Query.Sequence._packetToError (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at TCP.onread (net.js:560:20)
+    --------------------
+    at Protocol._enqueue (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:198:25)
+    at /Users/lee/PersonalData/fe_Engineering/qin/qin-server/build/dataAccess/MysqlImpl.js:48:22
+    at Ping.onOperationComplete (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at Ping._callback (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lee/PersonalData/fe_Engineering/qin/qin-server/node_modules/_mysql@2.18.1@mysql/lib/Connection.js:526:10)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+[2020-09-04 15:16:26.702] [INFO] console - pageId ---------- 1 1.0.2
+[2020-09-04 15:16:26.793] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 15:16:26.804] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    update qin.qin_page_publish set page_url = ?, current_version = ? where page_id =? 
+ exec sql params is ["https://www.baidu.com/1.0.2/index.html","1.0.2",1]
+[2020-09-04 15:16:26.805] [INFO] console - result ------- { result: 
+   OkPacket {
+     fieldCount: 0,
+     affectedRows: 1,
+     insertId: 0,
+     serverStatus: 2,
+     warningCount: 0,
+     message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+     protocol41: true,
+     changedRows: 1 },
+  fields: undefined }
+[2020-09-04 15:16:26.811] [INFO] console - service ------ 1 1.0.2
+[2020-09-04 15:16:26.819] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 15:16:26.835] [INFO] console -   --> POST /api/qin/history/rollback 200 16ms 40b
+[2020-09-04 15:16:44.695] [INFO] console - 1 15
+[2020-09-04 15:16:44.700] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:16:44.700] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: null } ] }
+[2020-09-04 15:16:44.706] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:16:44.732] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 25ms 507b
+[2020-09-04 15:17:45.848] [INFO] console - 1 15
+[2020-09-04 15:17:45.854] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:17:45.855] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.3/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: null } ] }
+[2020-09-04 15:17:45.858] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:17:45.863] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 5ms 507b
+[2020-09-04 15:17:55.214] [INFO] console - pageId ---------- 2 1.0.1
+[2020-09-04 15:17:55.219] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [2]
+[2020-09-04 15:17:55.228] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    update qin.qin_page_publish set page_url = ?, current_version = ? where page_id =? 
+ exec sql params is ["https://www.zuoyebang.com/1.0.1/index.html","1.0.1",2]
+[2020-09-04 15:17:55.229] [INFO] console - result ------- { result: 
+   OkPacket {
+     fieldCount: 0,
+     affectedRows: 1,
+     insertId: 0,
+     serverStatus: 2,
+     warningCount: 0,
+     message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+     protocol41: true,
+     changedRows: 1 },
+  fields: undefined }
+[2020-09-04 15:17:55.238] [INFO] console - service ------ 2 1.0.1
+[2020-09-04 15:17:55.242] [INFO] console -   <-- POST /api/qin/history/rollback
+[2020-09-04 15:17:55.245] [INFO] console -   --> POST /api/qin/history/rollback 200 2ms 40b
+[2020-09-04 15:17:59.632] [INFO] console - 1 15
+[2020-09-04 15:17:59.635] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:17:59.635] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 15:17:59.638] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:17:59.641] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 3ms 510b
+[2020-09-04 15:29:16.752] [INFO] console - 1 15
+[2020-09-04 15:29:16.941] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:29:16.943] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 2,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 15:29:16.965] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:29:17.009] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 45ms 510b
+[2020-09-04 15:29:20.610] [INFO] console - pageId ---------- 2 1.0.3
+[2020-09-04 15:29:20.617] [INFO] console - service ------ 2 1.0.3
+[2020-09-04 15:29:20.624] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [2]
+[2020-09-04 15:29:20.634] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    update qin.qin_page_publish set page_url = ?, page_status = ? where page_id = ? 
+ exec sql params is ["https://www.zuoyebang.com/404/index.html",3,2]
+[2020-09-04 15:29:20.634] [INFO] console - result ----------- { result: 
+   OkPacket {
+     fieldCount: 0,
+     affectedRows: 1,
+     insertId: 0,
+     serverStatus: 2,
+     warningCount: 0,
+     message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+     protocol41: true,
+     changedRows: 1 },
+  fields: undefined }
+[2020-09-04 15:29:20.636] [INFO] console -   <-- POST /api/qin/history/offline
+[2020-09-04 15:29:20.639] [INFO] console -   --> POST /api/qin/history/offline 200 2ms 40b
+[2020-09-04 15:29:35.959] [INFO] console - 1 15
+[2020-09-04 15:29:35.964] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 15:29:35.965] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 15:29:35.967] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 15:29:35.970] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 3ms 508b
+[2020-09-04 17:35:15.199] [INFO] console - 1 15
+[2020-09-04 17:35:15.238] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:35:15.238] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:35:15.254] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:35:15.296] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 42ms 508b
+[2020-09-04 17:36:08.992] [INFO] console - 1 15
+[2020-09-04 17:36:08.998] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:36:08.998] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:36:09.003] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:36:09.008] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 5ms 508b
+[2020-09-04 17:37:05.241] [INFO] console - 1 15
+[2020-09-04 17:37:05.244] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:37:05.245] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:37:05.257] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:37:05.267] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 10ms 508b
+[2020-09-04 17:37:36.473] [INFO] console - 1 15
+[2020-09-04 17:37:36.476] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:37:36.477] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:37:36.561] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:37:36.567] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 6ms 508b
+[2020-09-04 17:37:37.211] [INFO] console - 1 15
+[2020-09-04 17:37:37.216] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:37:37.216] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:37:37.224] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:37:37.226] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 2ms 508b
+[2020-09-04 17:37:57.810] [INFO] console - 1 15
+[2020-09-04 17:37:57.818] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:37:57.818] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:37:57.823] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:37:57.825] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 2ms 508b
+[2020-09-04 17:38:04.641] [INFO] console - 1 15
+[2020-09-04 17:38:04.676] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:38:04.685] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:38:04.692] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:38:04.762] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 70ms 508b
+[2020-09-04 17:38:04.920] [INFO] console - 1 15
+[2020-09-04 17:38:04.923] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:38:04.923] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:38:04.926] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:38:04.932] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 6ms 508b
+[2020-09-04 17:38:09.998] [INFO] console - pageId ---------- 1 1.0.0
+[2020-09-04 17:38:10.003] [INFO] console - service ------ 1 1.0.0
+[2020-09-04 17:38:10.006] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select page_url from qin.qin_page_publish where page_id = ?
+   
+ exec sql params is [1]
+[2020-09-04 17:38:10.024] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    update qin.qin_page_publish set page_url = ?, page_status = ? where page_id = ? 
+ exec sql params is ["https://www.baidu.com/404/index.html",3,1]
+[2020-09-04 17:38:10.025] [INFO] console - result ----------- { result: 
+   OkPacket {
+     fieldCount: 0,
+     affectedRows: 1,
+     insertId: 0,
+     serverStatus: 2,
+     warningCount: 0,
+     message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+     protocol41: true,
+     changedRows: 1 },
+  fields: undefined }
+[2020-09-04 17:38:10.029] [INFO] console -   <-- POST /api/qin/history/offline
+[2020-09-04 17:38:10.031] [INFO] console -   --> POST /api/qin/history/offline 200 2ms 40b
+[2020-09-04 17:38:10.083] [INFO] console - 1 15
+[2020-09-04 17:38:10.086] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:38:10.087] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.baidu.com/404/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 3,
+       page_url: 'https://www.zuoyebang.com/404/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:38:10.091] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:38:10.095] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 4ms 506b
+[2020-09-04 17:39:02.631] [INFO] console - 1 15
+[2020-09-04 17:39:02.642] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-04 17:39:02.642] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-04 17:39:02.654] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-04 17:39:02.694] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 40ms 510b

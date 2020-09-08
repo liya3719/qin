@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-27 21:08:53
  * @LastEditors: liya
- * @LastEditTime: 2020-09-02 20:21:00
+ * @LastEditTime: 2020-09-04 11:53:45
  */
 import { JsonController, Get, Post, BodyParam, QueryParam } from 'routing-controllers';
 import { Inject } from 'typedi';
@@ -32,7 +32,7 @@ export class HistoryController {
    */
   @Post('/history/rollback')
   async historyRollBack(@BodyParam('pageId') pageId: number, @BodyParam('pageVersion') pageVersion: string): Promise<response> {
-    console.log(`pageId ----------`, pageId);
+    console.log(`pageId ----------`, pageId, pageVersion);
     const result = await this.HistoryServiceInstance.historyRollBack(pageId, pageVersion);
     return result;
   }
@@ -41,7 +41,7 @@ export class HistoryController {
    */
   @Post('/history/offline')
   async historyOffLine(@BodyParam('pageId') pageId: number, @BodyParam('pageVersion') pageVersion: string): Promise<response> {
-    console.log(`pageId ----------`, pageId);
+    console.log(`pageId ----------`, pageId, pageVersion);
     const result = await this.HistoryServiceInstance.historyOffline(pageId, pageVersion);
     return result;
   }
