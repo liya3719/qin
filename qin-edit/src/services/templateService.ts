@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-31 15:14:03
  * @LastEditors: liya
- * @LastEditTime: 2020-09-03 15:31:50
+ * @LastEditTime: 2020-09-08 15:50:46
  */
 import { Service } from 'typedi';
 import { CommonService } from './commonService';
@@ -20,19 +20,21 @@ export class TemplateService implements ITemplateInterface {
    * @returns { Object }
    */
   getTemplateList(pageIndex: number, pageSize: number, type?: number): Promise<any> {
-    return CommonService._get(api.templateList, {
+    const result =  CommonService._get(api.templateList, {
       pageIndex,
       pageSize,
       type,
     });
+    return result;
   }
   /**
    * @description 设为收藏模板
    * @param { number } id 模板id
    */
   setTemplateCollect(templateId: number): Promise<any> {
-    return CommonService._post(api.templateCollect, {
+    const result =  CommonService._post(api.templateCollect, {
       templateId,
-    })
+    });
+    return result;
   }
 }

@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-28 11:07:45
  * @LastEditors: liya
- * @LastEditTime: 2020-09-04 15:28:47
+ * @LastEditTime: 2020-09-08 20:22:23
  */
 import { Service, Inject } from 'typedi';
 import { IHistoryInterface } from '../interface/services/IHistoryInterface';
@@ -56,7 +56,6 @@ export class HistoryService implements IHistoryInterface {
 
   
   async historyOffline(pageId: number, pageVersion: string): Promise<Response> {
-    console.log(`service ------`,pageId, pageVersion);
     const res = await this.dataAccessInstance.execSql(HistorySql.queryHistoryListByPageId, [pageId]);
     let pageUrl = res.result[0].page_url;
     pageUrl = pageUrl.replace(/\d(\.\d){2}/, '404');
@@ -65,7 +64,6 @@ export class HistoryService implements IHistoryInterface {
       3,
       pageId,
     ]);
-    console.log(`result -----------`, result);
     return {
       errStr: 'success',
       errNo: 0,

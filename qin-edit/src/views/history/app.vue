@@ -4,7 +4,7 @@
  * @Author: liya
  * @Date: 2020-08-26 19:18:44
  * @LastEditors: liya
- * @LastEditTime: 2020-09-08 11:40:31
+ * @LastEditTime: 2020-09-08 20:27:52
 -->
 <template>
   <div class="history">
@@ -90,6 +90,7 @@
 import { Vue, Component } from 'vue-property-decorator';
 import { Container, Inject } from 'typedi';
 import { HistoryService } from '../../services/historyService';
+import { UserService } from '../../services/userService';
 @Component
 export default class HistoryView extends Vue {
   private tableData:any[] = [];
@@ -107,7 +108,8 @@ export default class HistoryView extends Vue {
   private pageIndex: number = 1;
   private pageSize: number = 15;
   mounted() {
-   this.getHistoryList(); 
+    this.registry();
+    this.getHistoryList(); 
   }
   async getHistoryList() {
     const result = await Container.get(HistoryService).getHistoryList(this.pageIndex, this.pageSize);
@@ -147,6 +149,15 @@ export default class HistoryView extends Vue {
     }).then(async () => {
       await this.handlerOffline();
     });
+  }
+  async registry() {
+    const params = {
+      userName: 'liya',
+      userPassword: 123456,
+      userPhone: 15910571395,
+    };
+    const result = await Container.get(UserService).registry(params);
+    console.log(result);
   }
   /**
    * @description 下线操作,当前线上运行的版本则无法访问

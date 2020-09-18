@@ -1,0 +1,137 @@
+[2020-09-18 15:40:26.630] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 15:40:27.580] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 15:40:28.421] [INFO] console - 1 15
+[2020-09-18 15:40:28.738] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) as count from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-18 15:40:28.743] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-18 15:40:28.775] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-18 15:40:28.929] [INFO] console -   --> POST /api/qin/user/registry 200 157ms 40b
+[2020-09-18 15:40:29.090] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-18 15:40:29.508] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-18 15:40:29.659] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 151ms 510b
+[2020-09-18 15:45:19.935] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 15:45:20.270] [INFO] console - 1 15
+[2020-09-18 15:45:20.504] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-18 15:45:20.518] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-18 15:45:20.612] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 96ms 510b
+[2020-09-18 15:47:30.941] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 15:47:31.173] [INFO] console - cipher ------- Cipher { _handle: {}, _decoder: null, _options: undefined }
+[2020-09-18 15:47:31.181] [INFO] console - enc ----------- 
+[2020-09-18 15:47:31.193] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 15:47:31.214] [INFO] console - 1 15
+[2020-09-18 15:47:31.253] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) as count from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-18 15:47:31.254] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-18 15:47:31.260] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-18 15:47:31.276] [INFO] console -   --> POST /api/qin/user/registry 200 15ms 40b
+[2020-09-18 15:47:31.291] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-18 15:47:31.292] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-18 15:47:31.387] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 84ms 510b
+[2020-09-18 15:51:58.202] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 15:51:58.401] [INFO] console - cipher ------- Cipher { _handle: {}, _decoder: null, _options: undefined }
+[2020-09-18 15:51:58.406] [INFO] console - enc ----------- 
+[2020-09-18 15:51:58.409] [INFO] console - result ------------ 34f21234e70b9da5e6986778adbf6747
+[2020-09-18 15:51:58.420] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 15:51:58.456] [INFO] console - 1 15
+[2020-09-18 15:51:58.531] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) as count from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-18 15:51:58.532] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-18 15:51:58.538] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-18 15:51:58.554] [INFO] console -   --> POST /api/qin/user/registry 200 16ms 40b
+[2020-09-18 15:51:58.563] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-18 15:51:58.564] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-18 15:51:58.603] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 33ms 510b
+[2020-09-18 16:02:32.312] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 16:02:32.522] [INFO] console - cipher ------- Cipher { _handle: {}, _decoder: null, _options: undefined }
+[2020-09-18 16:02:32.529] [INFO] console - enc ----------- 
+[2020-09-18 16:02:32.533] [INFO] console - result ------------ 34f21234e70b9da5e6986778adbf6747
+[2020-09-18 16:02:32.535] [INFO] console - enCrypto------------- 34f21234e70b9da5e6986778adbf6747
+[2020-09-18 16:02:32.539] [INFO] console - deCrypto------------- 123456
+[2020-09-18 16:02:32.543] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 16:02:32.586] [INFO] console - 1 15
+[2020-09-18 16:02:32.662] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-18 16:02:32.667] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-18 16:02:32.701] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) as count from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-18 16:02:32.702] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-18 16:02:32.704] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-18 16:02:32.735] [INFO] console -   --> POST /api/qin/user/registry 200 32ms 40b
+[2020-09-18 16:02:32.747] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 79ms 510b
+[2020-09-18 16:17:42.368] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 16:17:42.773] [INFO] console - cipher ------- Cipher { _handle: {}, _decoder: null, _options: undefined }
+[2020-09-18 16:17:42.780] [INFO] console - enc ----------- 
+[2020-09-18 16:17:42.795] [INFO] console - result ------------ 34f21234e70b9da5e6986778adbf6747
+[2020-09-18 16:17:42.796] [INFO] console - enCrypto------------- 34f21234e70b9da5e6986778adbf6747
+[2020-09-18 16:17:42.805] [INFO] console - deCrypto------------- 123456
+[2020-09-18 16:17:42.807] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-18 16:17:42.882] [INFO] console - 1 15
+[2020-09-18 16:17:42.924] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) as count from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-18 16:17:42.925] [INFO] console - queryRegistryAccount result----------------------- true
+[2020-09-18 16:17:42.929] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-18 16:17:42.939] [INFO] console -   --> POST /api/qin/user/registry 200 11ms 40b
+[2020-09-18 16:17:42.950] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-18 16:17:42.952] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-18 16:17:42.965] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 13ms 510b

@@ -4,12 +4,14 @@
  * @Author: liya
  * @Date: 2020-03-01 20:44:54
  * @LastEditors: liya
- * @LastEditTime: 2020-08-31 19:39:59
+ * @LastEditTime: 2020-09-08 19:48:51
  */
 /**
  * main主体接口
  */
 export default {
+  registry: '/api/qin/user/registry',  // 注册
+  login: '/api/qin/user/login',  // 登录
   main: '/api/qin/main', // 获取信息
   templateList: '/api/qin/template/list',  // 模板列表
   templateCollect: '/api/qin/template/collect',  // 收藏模板

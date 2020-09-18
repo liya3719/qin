@@ -1,0 +1,1220 @@
+[2020-09-08 11:43:03.599] [INFO] console - 1 15
+[2020-09-08 11:43:04.313] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 11:43:04.314] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 11:43:04.353] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 11:43:04.480] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 133ms 510b
+[2020-09-08 11:45:32.628] [INFO] console - 1 15
+[2020-09-08 11:45:32.671] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 11:45:32.700] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 11:45:32.717] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 11:45:32.815] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 89ms 510b
+[2020-09-08 15:49:02.041] [INFO] console - 1 15
+[2020-09-08 15:49:02.616] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 15:49:02.619] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 15:49:02.645] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 15:49:02.696] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 46ms 510b
+[2020-09-08 15:49:16.521] [INFO] console - 1 15
+[2020-09-08 15:49:16.546] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 15:49:16.546] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 15:49:16.586] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 15:49:16.591] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 5ms 510b
+[2020-09-08 15:49:35.142] [INFO] console - 1 15
+[2020-09-08 15:49:35.219] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 15:49:35.219] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 15:49:35.224] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 15:49:35.243] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 19ms 510b
+[2020-09-08 15:49:35.426] [INFO] console - 1 15
+[2020-09-08 15:49:35.441] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 15:49:35.441] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 15:49:35.449] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 15:49:35.460] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 11ms 510b
+[2020-09-08 15:49:49.711] [INFO] console - 1 15
+[2020-09-08 15:49:49.718] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 15:49:49.718] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 15:49:49.823] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 15:49:49.832] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 9ms 510b
+[2020-09-08 15:50:10.934] [INFO] console - 1 15
+[2020-09-08 15:50:10.941] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 15:50:10.949] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 15:50:10.951] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 15:50:10.974] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 23ms 510b
+[2020-09-08 16:32:48.303] [INFO] console - type --------- 15
+[2020-09-08 16:32:48.441] [INFO] console -   <-- GET /api/qin/template/list?pageSize=0&type=15
+[2020-09-08 16:32:48.480] [INFO] console -   --> GET /api/qin/template/list?pageSize=0&type=15 200 40ms 723b
+[2020-09-08 19:49:03.365] [INFO] console - type --------- 15
+[2020-09-08 19:49:03.491] [INFO] console -   <-- GET /api/qin/template/list?pageSize=0&type=15
+[2020-09-08 19:49:03.540] [INFO] console -   --> GET /api/qin/template/list?pageSize=0&type=15 200 49ms 723b
+[2020-09-08 19:49:03.574] [INFO] console - type --------- 15
+[2020-09-08 19:49:03.578] [INFO] console -   <-- GET /api/qin/template/list?pageSize=0&type=15
+[2020-09-08 19:49:03.597] [INFO] console -   --> GET /api/qin/template/list?pageSize=0&type=15 200 19ms 723b
+[2020-09-08 19:55:22.760] [INFO] console - 1 15
+[2020-09-08 19:55:22.921] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 19:55:22.922] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 19:55:22.932] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 19:55:22.951] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 19ms 510b
+[2020-09-08 19:55:43.561] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 19:55:43.563] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 19:55:43.566] [INFO] console -   --> POST /api/qin/user/registry 200 2ms 40b
+[2020-09-08 19:55:43.571] [INFO] console - 1 15
+[2020-09-08 19:55:43.585] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 19:55:43.585] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 19:55:43.587] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 19:55:43.603] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 16ms 510b
+[2020-09-08 20:09:19.547] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:09:19.657] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:09:19.677] [INFO] console -   --> POST /api/qin/user/registry 200 22ms 40b
+[2020-09-08 20:09:19.685] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:09:19.686] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:10:41.937] [INFO] console - 1 15
+[2020-09-08 20:10:42.158] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:10:42.160] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:10:42.176] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:10:42.209] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 32ms 510b
+[2020-09-08 20:11:08.178] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:11:08.183] [INFO] console - 1 15
+[2020-09-08 20:11:08.196] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:11:08.197] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:11:08.200] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:11:08.212] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 13ms 510b
+[2020-09-08 20:12:31.039] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:12:31.047] [INFO] console - 1 15
+[2020-09-08 20:12:31.052] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:12:31.052] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:12:31.056] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:12:31.062] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 6ms 510b
+[2020-09-08 20:12:56.300] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:12:56.304] [INFO] console - 1 15
+[2020-09-08 20:12:56.309] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:12:56.309] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:12:56.313] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:12:56.317] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 4ms 510b
+[2020-09-08 20:15:26.133] [INFO] console - 1 15
+[2020-09-08 20:15:26.217] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:15:26.221] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:15:26.232] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:15:26.256] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 22ms 510b
+[2020-09-08 20:15:31.584] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:15:31.614] [INFO] console - 1 15
+[2020-09-08 20:15:31.622] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:15:31.622] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:15:31.626] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:15:31.633] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 5ms 510b
+[2020-09-08 20:18:11.878] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:18:11.910] [INFO] console - 1 15
+[2020-09-08 20:18:11.962] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:18:11.965] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:18:11.970] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:18:12.003] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 33ms 510b
+[2020-09-08 20:18:58.954] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:19:05.019] [INFO] console - 1 15
+[2020-09-08 20:19:05.118] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:19:05.119] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:19:05.220] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:19:05.280] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is [null]
+[2020-09-08 20:19:05.280] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 0 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:19:05.282] [INFO] console - false
+[2020-09-08 20:19:05.284] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:19:05.321] [INFO] console -   --> POST /api/qin/user/registry 200 36ms 40b
+[2020-09-08 20:19:05.396] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 218ms 510b
+[2020-09-08 20:19:39.487] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:19:39.494] [INFO] console - 1 15
+[2020-09-08 20:19:39.498] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is [null]
+[2020-09-08 20:19:39.498] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 0 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:19:39.500] [INFO] console - false
+[2020-09-08 20:19:39.503] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:19:39.506] [INFO] console -   --> POST /api/qin/user/registry 200 3ms 40b
+[2020-09-08 20:19:39.512] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:19:39.513] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:19:39.518] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:19:39.522] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 4ms 510b
+[2020-09-08 20:19:59.166] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:20:51.054] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is [null]
+[2020-09-08 20:20:51.054] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 0 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:20:51.055] [INFO] console - false
+[2020-09-08 20:20:51.055] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:20:51.056] [INFO] console -   --> POST /api/qin/user/registry 200 1ms 40b
+[2020-09-08 20:20:51.059] [INFO] console - 1 15
+[2020-09-08 20:20:51.069] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:20:51.069] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:20:51.081] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:20:51.202] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 121ms 510b
+[2020-09-08 20:21:18.415] [INFO] console - UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:21:25.810] [INFO] console - 1 15
+[2020-09-08 20:21:25.841] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is [null]
+[2020-09-08 20:21:25.843] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 0 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:21:25.845] [INFO] console - false
+[2020-09-08 20:21:25.854] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:21:25.867] [INFO] console -   --> POST /api/qin/user/registry 200 14ms 40b
+[2020-09-08 20:21:25.870] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:21:25.871] [INFO] console - { errNo: 0,
+  errStr: 'success',
+  data: 
+   [ RowDataPacket {
+       page_id: 1,
+       page_name: 'test',
+       publish_author: 'liya',
+       publish_time: 2020-09-02T12:28:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.baidu.com/1.0.2/index.html',
+       publish_version: '1.0.0, 1.0.1, 1.0.2',
+       current_version: '1.0.2' },
+     RowDataPacket {
+       page_id: 2,
+       page_name: 'test111',
+       publish_author: 'liya',
+       publish_time: 2020-09-01T16:00:00.000Z,
+       page_status: 1,
+       page_url: 'https://www.zuoyebang.com/1.0.1/index.html',
+       publish_version: '1.0.3,1.0.2,1.0.1',
+       current_version: '1.0.1' } ] }
+[2020-09-08 20:21:25.873] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:21:25.891] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 17ms 510b
+[2020-09-08 20:24:13.719] [INFO] console - controller userModel ---------- UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:24:13.786] [INFO] console - service userModel -------------- UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:24:13.803] [INFO] console - 1 15
+[2020-09-08 20:24:13.837] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:24:13.840] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:24:13.850] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is [null]
+[2020-09-08 20:24:13.850] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 0 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:24:13.852] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:24:13.854] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:24:13.866] [INFO] console -   --> POST /api/qin/user/registry 200 12ms 40b
+[2020-09-08 20:24:13.873] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 32ms 510b
+[2020-09-08 20:24:56.501] [INFO] console - controller userModel ---------- UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:24:56.533] [INFO] console - service userModel -------------- UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:25:54.219] [INFO] console - 1 15
+[2020-09-08 20:25:54.237] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is [null]
+[2020-09-08 20:25:54.237] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 0 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:25:54.240] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:25:54.252] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:25:54.318] [INFO] console -   --> POST /api/qin/user/registry 200 67ms 40b
+[2020-09-08 20:25:54.323] [INFO] console - controller userModel ---------- UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:25:54.337] [INFO] console - service userModel -------------- UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:25:55.978] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is [null]
+[2020-09-08 20:25:55.978] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 0 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:25:55.980] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:25:55.981] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:25:55.984] [INFO] console -   --> POST /api/qin/user/registry 200 3ms 40b
+[2020-09-08 20:25:56.012] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:25:56.015] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:25:56.038] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 23ms 510b
+[2020-09-08 20:25:58.883] [INFO] console - 1 15
+[2020-09-08 20:25:58.902] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:25:58.903] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:25:58.910] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 7ms 510b
+[2020-09-08 20:26:02.355] [INFO] console - controller userModel ---------- UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:26:02.356] [INFO] console - service userModel -------------- UserInfoModel {
+  UserModel: 
+   { userName: 'liya',
+     userPassword: '123456',
+     userPhone: '15910571395' } }
+[2020-09-08 20:28:00.198] [INFO] console - 1 15
+[2020-09-08 20:28:00.209] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:28:00.210] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:28:00.215] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:28:00.264] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:28:00.278] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is [null]
+[2020-09-08 20:28:00.278] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 0 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:28:00.283] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:28:00.284] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:28:00.355] [INFO] console -   --> POST /api/qin/user/registry 200 71ms 40b
+[2020-09-08 20:28:00.402] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:28:00.404] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:28:00.416] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 12ms 510b
+[2020-09-08 20:28:00.421] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:28:00.421] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 1 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:28:00.424] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:28:00.424] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:28:00.425] [INFO] console -   --> POST /api/qin/user/registry 200 1ms 40b
+[2020-09-08 20:28:00.445] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:28:00.445] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 1 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:28:00.446] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:28:00.447] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:28:00.448] [INFO] console -   --> POST /api/qin/user/registry 200 1ms 40b
+[2020-09-08 20:28:00.450] [INFO] console - 1 15
+[2020-09-08 20:28:00.463] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:28:00.464] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:28:00.472] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 8ms 510b
+[2020-09-08 20:28:00.483] [INFO] console - 1 15
+[2020-09-08 20:28:00.491] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:28:00.492] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:28:00.498] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 6ms 510b
+[2020-09-08 20:28:00.718] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:28:00.720] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:28:00.735] [INFO] console - 1 15
+[2020-09-08 20:28:00.743] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:28:00.743] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 1 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:28:00.773] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:28:00.775] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:28:00.781] [INFO] console -   --> POST /api/qin/user/registry 200 6ms 40b
+[2020-09-08 20:28:00.791] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:28:00.796] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:28:00.809] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 13ms 510b
+[2020-09-08 20:28:16.501] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:28:16.669] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:28:25.989] [INFO] console - 1 15
+[2020-09-08 20:28:26.015] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:28:26.016] [INFO] console - service -------- { result: [ RowDataPacket { 'count(user_name)': 1 } ],
+  fields: 
+   [ FieldPacket {
+       catalog: 'def',
+       db: '',
+       table: '',
+       orgTable: '',
+       name: 'count(user_name)',
+       orgName: '',
+       charsetNr: 63,
+       length: 21,
+       type: 8,
+       flags: 129,
+       decimals: 0,
+       default: undefined,
+       zeroFill: false,
+       protocol41: true } ] }
+[2020-09-08 20:28:26.018] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:28:26.023] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:28:26.036] [INFO] console -   --> POST /api/qin/user/registry 200 12ms 40b
+[2020-09-08 20:28:26.041] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:28:26.044] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:28:26.071] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 26ms 510b
+[2020-09-08 20:30:13.258] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:30:13.339] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:30:13.364] [INFO] console - 1 15
+[2020-09-08 20:30:13.450] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:30:13.455] [INFO] console - service -------- [ RowDataPacket { 'count(user_name)': 1 } ]
+[2020-09-08 20:30:13.473] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:30:13.491] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:30:13.514] [INFO] console -   --> POST /api/qin/user/registry 200 24ms 40b
+[2020-09-08 20:30:13.518] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:30:13.522] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:30:13.543] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 20ms 510b
+[2020-09-08 20:30:41.461] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:30:41.470] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:30:41.516] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:39:30.774] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:39:30.941] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:39:30.975] [INFO] console - 1 15
+[2020-09-08 20:39:31.034] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:39:31.041] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:39:31.098] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:39:37.091] [INFO] console - service -------- RowDataPacket { 'count(user_name)': 1 }
+[2020-09-08 20:39:37.092] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:39:37.094] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:39:37.106] [INFO] console -   --> POST /api/qin/user/registry 200 12ms 40b
+[2020-09-08 20:39:37.112] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 6,070ms 510b
+[2020-09-08 20:40:19.043] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:40:19.118] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:40:19.139] [INFO] console - 1 15
+[2020-09-08 20:40:19.223] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select COUNT(user_name) from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:40:19.226] [INFO] console - service -------- RowDataPacket { 'COUNT(user_name)': 1 }
+[2020-09-08 20:40:19.232] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:40:19.238] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:40:19.256] [INFO] console -   --> POST /api/qin/user/registry 200 17ms 40b
+[2020-09-08 20:40:19.261] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:40:19.263] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:40:19.277] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 13ms 510b
+[2020-09-08 20:42:02.750] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:42:02.814] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:42:02.827] [INFO] console - 1 15
+[2020-09-08 20:42:02.906] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:42:02.910] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:42:02.919] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) as count from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:42:02.920] [INFO] console - service -------- RowDataPacket { count: 1 }
+[2020-09-08 20:42:02.921] [INFO] console - queryRegistryAccount result----------------------- false
+[2020-09-08 20:42:02.922] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:42:02.934] [INFO] console -   --> POST /api/qin/user/registry 200 12ms 40b
+[2020-09-08 20:42:02.947] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 36ms 510b
+[2020-09-08 20:43:30.069] [INFO] console - controller userModel ---------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:43:30.195] [INFO] console - service userModel -------------- UserInfoModel {
+  userName: 'liya',
+  userPassword: '123456',
+  userPhone: '15910571395' }
+[2020-09-08 20:43:30.234] [INFO] console - 1 15
+[2020-09-08 20:43:30.285] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ select count(user_name) as count from qin.qin_user where user_name = ? 
+ exec sql params is ["liya"]
+[2020-09-08 20:43:30.286] [INFO] console - queryRegistryAccount result----------------------- true
+[2020-09-08 20:43:30.290] [INFO] console -   <-- POST /api/qin/user/registry
+[2020-09-08 20:43:30.302] [INFO] console -   --> POST /api/qin/user/registry 200 11ms 40b
+[2020-09-08 20:43:30.306] [INFO] MysqlImpl.ts - exec the sql,and the excuting sql is 
+ 
+    select * from qin.qin_page_publish
+    order by publish_time desc limit 0, 15 
+ exec sql params is []
+[2020-09-08 20:43:30.308] [INFO] console -   <-- GET /api/qin/history/list?pageIndex=1&pageSize=15
+[2020-09-08 20:43:30.363] [INFO] console -   --> GET /api/qin/history/list?pageIndex=1&pageSize=15 200 51ms 510b
